@@ -1,8 +1,10 @@
 noggin
 ======
 
-A Javascript logging utility supporting log levels and categories.
+A Javascript logging utility supporting log levels and categories. It outputs nicely formatted console messages with no configuration
 
+## Installation
+`npm install noggin`
 
 ## Usage  (CoffeeScript)
 ```coffeescript
