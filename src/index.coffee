@@ -16,6 +16,7 @@ exports.formatter = (msg, category, level)->
   "#{t} [#{level}] [#{category}] #{msg}"
 
 exports.output = (msg)->
+  msg = JSON.stringify(msg) unless typeof msg is 'string'
   console.log(msg)
 
 exports.log = (msg, category, level)->
